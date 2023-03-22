@@ -6,11 +6,13 @@
  * 		<h1>I'm h1 Tag</h1> 
  * 	</div>
  * </div>
+ * 
+ * ReactElement -> Is a Object => While It into the DOM it Becomes HTML
  */
 
 const parent = React.createElement(
 	"div",
-	{ id: "parent" },
+	{ id: "parent" }, // Attribute
 	React.createElement("div", { id: "child" }, React.createElement("h1", {}, "I'm an h1 Tag"))
 );
 
