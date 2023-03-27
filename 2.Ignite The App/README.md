@@ -15,3 +15,5 @@
 - Diagnosys
 - Error Handling
 - HTTPS 
+- Tree Shaking -> Remove Unused Code for you
+- Different dev and prod bundles
