@@ -2942,12 +2942,16 @@ JSX
 It's a javascript syntax which is easier to create reactElement.
 JSX is separate from react. It just makes the dev experience better.
 JSX is a HTML like Syntax.
+JSX code is transpiled before it reaches the javacript engine. 
+Transpiled means that it is converted to the code which the browser and react can understand.
+Parcel is responsible for transpiling this code. Parcel further delegates this transpilation job
+to a Package called as "Babel"
 */ const jsxHeading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     id: "heading",
     children: " Namaste React using JSX ⚡"
 }, void 0, false, {
     fileName: "app.js",
-    lineNumber: 19,
+    lineNumber: 23,
     columnNumber: 20
 }, undefined);
 console.log(jsxHeading);
