@@ -2929,6 +2929,13 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
+//  React Element => Object => When we render this Object into our DOM it becomes HTML.
+const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
+    id: "heading"
+}, "Namaste React �");
+const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
+console.log(heading); // To see createElement is just an object only.
+root.render(heading);
 
   $parcel$ReactRefreshHelpers$6024.postlude(module);
 } finally {
