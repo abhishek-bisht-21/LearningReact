@@ -9,6 +9,13 @@ console.log(heading); // To see createElement is just an object only.
 root.render(heading);
 
 
-// JSX -> It's a javascript syntax which is easier to create reactElement.
-// JSX is separate from react. It just makes the dev experience better.
+/*
+JSX
+It's a javascript syntax which is easier to create reactElement.
+JSX is separate from react. It just makes the dev experience better.
+JSX is a HTML like Syntax.
+*/
+
+const jsxHeading = <h1 id="heading"> Namaste React using JSX ⚡</h1>
+console.log(jsxHeading);
 
